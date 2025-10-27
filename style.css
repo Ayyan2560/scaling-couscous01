@@ -1,0 +1,65 @@
+*{
+    background-color: rgb(155, 141, 127);
+}
+
+h1, h2, h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 4px 5px 4px black;
+    font-style: oblique;
+    text-decoration: underline
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgb(180, 174, 115);
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 1.6em;
+    word-spacing: 0.6em;
+    letter-spacing: 0.1em;
+
+}
+ul>li{
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+   
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+a:link,a:visited {
+    color: yellow;
+    font-size: 20px;
+
+}
+a:active {
+    color: red;
+}
+a:hover {
+    color: orange;
+    font-size: 25px;
+}
+input[
+    type="text"
+]:focus
+{
+color: blue;
+background-color: lightgray;
+}
+button[
+    type="submit"
+]:hover
+{
+    background-color: green;
+    color: white;
+    font-size: 1em;
+}
+   
