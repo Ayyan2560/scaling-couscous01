@@ -10,7 +10,8 @@ h1, h2, h3 {
     text-transform: uppercase;
     text-shadow: 4px 5px 4px black;
     font-style: oblique;
-    text-decoration: underline
+    text-decoration: underline;
+    text-shadow: 5px 8px 3px #000000;
 }
 p{
     font-family: 'Courier New', Courier, monospace;
@@ -27,17 +28,20 @@ p{
     letter-spacing: 0.1em;
 
 }
-ul>li{
-    color: burlywood;
+ul>li, ol>li {
+    color: rgb(34, 32, 27);
     font-family: 'Courier New', Courier, monospace;
    
     font-style: normal;
     text-transform: capitalize;
-    text-decoration: underline;
+    text-decoration: underline; 
+    font-weight: 600;
+    font-size: 1em;
+    text-shadow: 2px 2px 2px rgb(150, 145, 100);
 }
 a:link,a:visited {
     color: yellow;
-    font-size: 20px;
+    font-size: 1.6em;
 
 }
 a:active {
@@ -61,5 +65,11 @@ button[
     background-color: green;
     color: white;
     font-size: 1em;
+}
+#my-id {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    
 }
    
